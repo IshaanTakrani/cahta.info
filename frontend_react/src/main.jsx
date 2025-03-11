@@ -1,23 +1,14 @@
-<<<<<<< HEAD:frontend_react/src/main.jsx
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./index.css";
-
-import Navbar from "./Navbar.jsx";
-
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <Navbar></Navbar>
-  </StrictMode>
-=======
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import Counter from './Counter.jsx';
+import ButtonTest from './Button.jsx';
+import { extendTheme, CssVarsProvider } from '@mui/joy/styles';
+import Navbar from './Button.jsx';
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
-		<Counter></Counter>
+		<CssVarsProvider>
+			<ButtonTest></ButtonTest>
+		</CssVarsProvider>
 	</StrictMode>
->>>>>>> refs/remotes/origin/main:frontend/src/main.jsx
 );

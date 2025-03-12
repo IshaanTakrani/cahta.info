@@ -1,0 +1,153 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 38010,
+            "type": "VEC3",
+            "max": [
+                14.708000183105469,
+                57.5,
+                23.0
+            ],
+            "min": [
+                -32.0,
+                -78.5,
+                2.9660000801086427
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 38010,
+            "type": "VEC4",
+            "max": [
+                0.9137254953384399,
+                0.7803921699523926,
+                0.843137264251709,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.11372549086809159,
+                0.1764705926179886,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 38010,
+            "type": "SCALAR",
+            "max": [
+                38009
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1216320,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 456120,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 456120,
+            "byteLength": 608160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1064280,
+            "byteLength": 152040,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert2SG.001",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "name": "material"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "COLOR_0": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "nodes[1]",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.220446049250313e-16,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                2.220446049250313e-16,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Mesh_Mesh_head_geo.001_lambert2SG.001",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

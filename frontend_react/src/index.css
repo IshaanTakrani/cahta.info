@@ -1,12 +1,12 @@
 body {
-	/* background-color: black;
-	margin: 10px;
-	padding: 10px; */
+  background-color: rgb(219, 219, 219);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .homepage-wrapper {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }

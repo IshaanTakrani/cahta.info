@@ -45,7 +45,7 @@ function Homepage() {
 						flexDirection: 'column',
 						alignItems: 'center',
 						p: 2,
-						borderRadius: 5,
+						borderRadius: 10,
 						my: 5,
 						bgcolor: 'background.body',
 						color: 'text.primary',
@@ -65,7 +65,7 @@ function Homepage() {
 							environmental impact and reducing fuel costs.
 						</Typography>
 						<img
-							style={{ width: '100%', padding: '10px' }}
+							style={{ width: '100%', padding: '10px', alignSelf: 'center' }}
 							src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
 							alt="Empty placeholder image, no content"
 						/>

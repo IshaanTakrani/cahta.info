@@ -34,11 +34,11 @@ function HomepageTitle() {
           fontFamily: "Lora",
           m: 1,
 
-          transition: "0.4s",
-          "&:hover": {
-            color: "white",
-            bgcolor: "black",
-          },
+          // transition: "0.4s",
+          // "&:hover": {
+          //   color: "white",
+          //   bgcolor: "black",
+          // },
         }}
       >
         Catch Smarter. Tread Lighter. Sustain Our Oceans.

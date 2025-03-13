@@ -57,7 +57,8 @@ function Homepage() {
           borderRadius: 10,
           color: "text.primary",
           mb: 4,
-          width: "50%",
+          minWidth: "200px",
+          maxWidth: "50%",
           height: 600,
         }}
       >

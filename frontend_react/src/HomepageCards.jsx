@@ -8,7 +8,7 @@ const StyledCard = styled(Card)({
   margin: "16px",
   padding: "24px",
   flex: 1,
-  minWidth: "280px",
+  minWidth: "180px",
   maxWidth: "400px",
   width: "100%",
 

@@ -4,6 +4,7 @@ import Typography from "@mui/joy/Typography";
 import Card from "@mui/joy/Card";
 import Box from "@mui/joy/Box";
 import { styled } from "@mui/joy/styles";
+import AboutSummary from "./AboutSummary";
 
 import HomepageTitle from "./HomepageTitle";
 import HomepageSummary from "./HomepageSummary";
@@ -59,6 +60,7 @@ function AboutUs() {
       >
         Meet The Team
       </Typography>
+      <AboutSummary />
       <Box
         sx={{
           display: "flex",

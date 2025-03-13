@@ -13,7 +13,7 @@ function RotatingModel({ url }) {
     }
   });
 
-  return <primitive ref={modelRef} object={scene} scale={0.1} />;
+  return <primitive ref={modelRef} object={scene} scale={0.07} />;
 }
 
 export default function App() {

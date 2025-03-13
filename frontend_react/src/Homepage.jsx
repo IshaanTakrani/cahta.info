@@ -5,7 +5,7 @@ import Typography from "@mui/joy/Typography";
 import HomepageTitle from "./HomepageTitle";
 import HomepageSummary from "./HomepageSummary";
 import HomepageCards from "./HomepageCards";
-import Model3d from "./Model3d.jsx";
+import Homepage3dViewer from "./Homepage3dViewer";
 
 function Homepage() {
   return (
@@ -45,34 +45,7 @@ function Homepage() {
         ></Sheet> */}
 
       <HomepageCards />
-
-      <Sheet
-        variant="outlined"
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          borderRadius: 10,
-          // p: 0,
-          color: "text.primary",
-          mb: 4,
-          minWidth: "200px",
-          maxWidth: "50%",
-          height: 600,
-        }}
-      >
-        <Typography
-          level="h2"
-          sx={{
-            fontFamily: "Lora",
-            p: 2,
-          }}
-        >
-          Interactive 3D Model: CAHTA Prototype
-        </Typography>
-        <Model3d />
-      </Sheet>
+      <Homepage3dViewer />
     </Sheet>
   );
 }

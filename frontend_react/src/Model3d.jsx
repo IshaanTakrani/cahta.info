@@ -4,7 +4,7 @@ import { OrbitControls, useGLTF } from "@react-three/drei";
 
 function RotatingModel({ url }) {
   const modelRef = useRef();
-  const { scene } = useGLTF("src/assets/CAHTAnet.glb");
+  const { scene } = useGLTF("assets/CAHTAnet.glb");
 
   // Rotate the model continuously
   useFrame(() => {

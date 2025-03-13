@@ -54,6 +54,7 @@ function Homepage() {
           justifyContent: "center",
           alignItems: "center",
           borderRadius: 10,
+          // p: 0,
           color: "text.primary",
           mb: 4,
           minWidth: "200px",

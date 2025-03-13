@@ -11,6 +11,8 @@ const StyledCard = styled(Card)({
   minWidth: "180px",
   maxWidth: "400px",
   width: "100%",
+  // height: "350px",
+  // minHeight: "800px",
 
   transition: "0.3s",
   "&:hover": {

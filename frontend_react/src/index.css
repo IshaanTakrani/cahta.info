@@ -1,7 +1,15 @@
 body {
-  background-color: rgb(219, 219, 219);
   margin-top: 20px;
   margin-bottom: 20px;
+  background: radial-gradient(
+    #c0c0c0 20%,
+    transparent 21%,
+    transparent 79%,
+    #c0c0c0 80%
+  );
+  background-size: 1em 1em;
+  background-color: #ffffff;
+  opacity: 1;
 }
 
 .homepage-wrapper {

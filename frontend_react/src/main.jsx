@@ -10,7 +10,6 @@ import AboutUs from "./AboutUs.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CssVarsProvider>
-      {/* <ButtonTest></ButtonTest> */}
       <Homepage></Homepage>
       <AboutUs></AboutUs>
     </CssVarsProvider>

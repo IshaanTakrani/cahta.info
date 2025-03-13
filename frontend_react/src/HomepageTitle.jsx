@@ -18,6 +18,7 @@ function HomepageTitle() {
           fontFamily: "SixtyFour",
           fontSize: "3em",
           m: 1,
+          p: 1,
 
           transition: "0.4s",
           "&:hover": {

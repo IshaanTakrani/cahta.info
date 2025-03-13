@@ -26,26 +26,8 @@ function Homepage() {
     >
       <HomepageTitle />
       <HomepageSummary />
-
-      {/* <Sheet
-          variant="outlined"
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            borderRadius: 10,
-            color: "text.primary",
-            justifyContent: "center",
-            p: 5,
-            px: 2,
-            mt: 10,
-            width: "95%",
-            bgcolor: "background.tertiary",
-          }}
-        ></Sheet> */}
-
       <HomepageCards />
-      <Homepage3dViewer />
+      {/* <Homepage3dViewer /> TODO: un-comment this after ESCH */}
     </Sheet>
   );
 }

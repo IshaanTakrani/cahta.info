@@ -16,7 +16,7 @@ function HomepageTitle() {
         level="h1"
         sx={{
           fontFamily: "SixtyFour",
-          fontSize: 50,
+          fontSize: "3em",
           m: 1,
 
           transition: "0.4s",

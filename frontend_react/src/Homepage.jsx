@@ -17,7 +17,6 @@ function Homepage() {
         alignItems: "center",
         justifyContent: "center",
 
-        m: 2,
         p: 3,
         pt: 20,
         borderRadius: 25,

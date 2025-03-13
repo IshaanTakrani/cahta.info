@@ -17,7 +17,6 @@ function AboutUs() {
         alignItems: "center",
         justifyContent: "center",
 
-        m: 2,
         mt: 4,
         p: 3,
         pt: 20,

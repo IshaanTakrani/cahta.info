@@ -42,7 +42,7 @@ function HomepageTitle() {
           // },
         }}
       >
-        Catch Smarter. Tread Lighter. Sustain Our Oceans.
+        Catch Smarter. Tread Lighter. Sustain Our Oceans. The Sustainable Future of Bottom Trawling.
       </Typography>
     </div>
   );

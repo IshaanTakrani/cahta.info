@@ -41,7 +41,7 @@ function AboutSummaryary() {
 						fontSize: '1.25em',
 					}}
 				>
-					Description of team
+					{/* Description of team */}
 				</Typography>
 				{/* <img
         style={{ width: "100%", padding: "10px", alignSelf: "center" }}

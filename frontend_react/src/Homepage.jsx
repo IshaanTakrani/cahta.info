@@ -26,8 +26,8 @@ function Homepage() {
     >
       <HomepageTitle />
       <HomepageSummary />
+      <Homepage3dViewer /> 
       <HomepageCards />
-      {/* <Homepage3dViewer /> TODO: un-comment this after ESCH */}
     </Sheet>
   );
 }

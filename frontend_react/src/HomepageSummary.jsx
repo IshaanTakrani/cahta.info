@@ -43,9 +43,17 @@ function HomepageSummary() {
             fontSize: "1.25em",
           }}
         >
-          Project CAHTA introduces a revolutionary bottom trawling net that uses
-          sound technology to attract groundfish while minimizing environmental
-          impact and reducing fuel costs.
+          Aggressive fishing practices like bottom trawling harm marine
+          ecosystems, deplete fish stocks, and release massive CO2 emissions.
+          Our solution, Project CAHTA, replaces destructive steel-weighted
+          trawls with hydroacoustic transducers that use targeted sound waves to
+          attract groundfish. This reduces bycatch, minimizes seabed disruption,
+          and lowers fuel costs for fisheries. Using proven acoustic attraction
+          methods, our technology balances efficiency and sustainability,
+          helping fisheries maintain profitability while protecting marine life.
+          By offering a scalable, eco-friendly alternative, we align with
+          Canada’s conservation goals and ensure a sustainable future for both
+          fishers and consumers.
         </Typography>
         {/* <img
         style={{ width: "100%", padding: "10px", alignSelf: "center" }}

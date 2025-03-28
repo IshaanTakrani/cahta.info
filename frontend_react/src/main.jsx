@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
     <CssVarsProvider>
       <Homepage></Homepage>
       <AboutUs></AboutUs>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       {/* <Footer></Footer> */}
     </CssVarsProvider>
   </StrictMode>

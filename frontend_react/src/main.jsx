@@ -6,12 +6,16 @@ import { extendTheme, CssVarsProvider } from "@mui/joy/styles";
 import Navbar from "./Button.jsx";
 import Homepage from "./Homepage.jsx";
 import AboutUs from "./AboutUs.jsx";
+import Contact from "./Contact.jsx";
+import Footer from "./Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CssVarsProvider>
       <Homepage></Homepage>
       <AboutUs></AboutUs>
+      <Contact></Contact>
+      {/* <Footer></Footer> */}
     </CssVarsProvider>
   </StrictMode>
 );
